@@ -191,14 +191,19 @@ public class OnlineCoursesAnalyzer {
     //4
     public List<String> getCourses(int topK, String by) {
         /**
-         * This method returns the top K courses (parameter topK) by the given criterion (parameter by).
+         * This method returns the top K courses (parameter topK) by the given criterion
+         * (parameter by).
          * Specifically,
-         * by="hours": the results should be courses sorted by descending order of Total Course Hours
+         * by="hours": the results should be courses sorted by descending order of Total
+         * Course Hours
          * (Thousands) (from the longest course to the shortest course).
-         * by="participants": the results should be courses sorted by descending order of the number of
+         * by="participants": the results should be courses sorted by descending order
+         * of the number of
          * the Participants (Course Content Accessed) (from the most to the least).
-         * Note that the results should be a list of Course titles. If two courses have the same total Course hours or
-         * participants, then they should be sorted by alphabetical order of their titles. The same course title can only
+         * Note that the results should be a list of Course titles. If two courses have
+         * the same total Course hours or
+         * participants, then they should be sorted by alphabetical order of their titles.
+         * The same course title can only
          * occur once in the list.
          */
         // Sort the courses according to the given criterion
